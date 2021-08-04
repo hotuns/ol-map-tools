@@ -1,0 +1,23 @@
+{
+  "name": "ol-map-tools",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ol": "^6.6.1",
+    "ol-contextmenu": "^4.1.0",
+    "ol-ext": "^3.2.4",
+    "vue": "^3.0.5",
+    "vue-clipboard3": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
